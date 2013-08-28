@@ -1,0 +1,14 @@
+{
+  "name": "gruntTest",
+  "version": "0.1.0",
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-contrib-watch": "~0.5.1",
+    "grunt-contrib-connect": "~0.3.0",
+    "connect-livereload": "latest"
+  },
+  "base":"trunk/",
+  "jsPath":["downloads/*.js","history/*.js"],
+  "htmlPath":["downloads/*.html","history/*.html"],
+  "cssPath":["downloads/*.css","history/*.css"]
+}
