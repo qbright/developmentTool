@@ -1,0 +1,10 @@
+{
+  "name": "tar",
+  "version": "0.0.1",
+  "dependencies": {
+    "tar-async":"*",
+    "file":"*",
+    "mkdirp":"*",
+    "foreach":"*"
+  }
+}
