@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <script src="../valid.js"></script>
+    <script>
+        dataMap = {
+            name:"adfadfa",
+            homePage:"www.adfdf.com"
+        }
+
+        validMap ={
+            name:["isLength",1,4],
+            homePage:["isUrl",[]]
+        }
+
+        qValid.validMap(dataMap,validMap,function(result){
+            console.log(result);
+        });
+
+
+    </script>
+</head>
+<body>
+
+</body>
+</html>
